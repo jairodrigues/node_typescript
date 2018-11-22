@@ -1,8 +1,10 @@
 { 
     "compilerOptions": {
         "target": "es6",
-        "module": "commonjs",
-        "outDir": "dist"
+        "module": "commonjs",       
+        "lib": [
+            "esnext"
+        ]
     },
     "compileOnSave": false,
     "include": [
